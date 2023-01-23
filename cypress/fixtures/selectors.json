@@ -1,0 +1,10 @@
+{
+	"login": "#LOGIN-USERNAME",
+	"password": "#LOGIN-PASSWORD",
+	"buttonEnter": "#BTN-OK",
+	"singleWindow": "Одно окно",
+	"fieldRegNumber": ".v-textfield.v-widget",
+	"error": "Внимание!",
+	"buttonCreate": ".v-csslayout > .v-button",
+	"buttonSave": "Сохранить"
+}

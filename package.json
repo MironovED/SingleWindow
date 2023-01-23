@@ -1,0 +1,17 @@
+{
+	"name": "cypress_singl_w",
+	"version": "1.0.0",
+	"description": "UI tests",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx cypress open",
+		"test:SW": "npx cypress run --browser chrome"
+	},
+	"keywords": [],
+	"author": "Mironov Evgeny",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^10.11.0"
+	},
+	"devDependencies": {}
+}

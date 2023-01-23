@@ -1,0 +1,10 @@
+{
+	"urlDBO": "https://testbank.ru/",
+	"routingCode1": "11236547890",
+	"routingCode2": "11236547891",
+	"routingCode3": "11236547892",
+	"reasonSendNew": "Новая",
+	"reasonSendUpdate": "Обновление",
+	"reasonSendRemove": "Удаление",
+	"regNumber": "12345678"
+}

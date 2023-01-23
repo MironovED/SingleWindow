@@ -1,0 +1,21 @@
+{
+	"new": "новое",
+	"operationID": "10450176660064742706201810000000",
+	"invoiceID": "60077274285462022-0000001",
+	"amount": 10000,
+	"currencyCode": "RUB",
+	"purpose": "Тестовый платеж",
+	"date": "10.11.2022 15:22:51",
+	"payeeName": "Тестовый получатель",
+	"payeeInn": "7704441808",
+	"payeePersonalAcc": "40802840442034415249",
+	"payeeBik": "044525068",
+	"payerName": "Тестовый плательщик",
+	"payerInn": "7727428546",
+	"payerPersonalAcc": "40703840705658921366",
+	"payerBik": "044525068",
+	"reasonSendNew": "новое",
+	"reasonSendRecall": "отзыв",
+	"reasonSendClarify": "уточнение",
+	"regNumber": "12345678"
+}
