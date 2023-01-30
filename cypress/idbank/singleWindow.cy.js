@@ -520,7 +520,6 @@ describe("AcceptPayRequest: new", () => {
 		).should("be.visible");
 	});
 
-	//после доработки добавить асерт
 	it("valid request new, when regNumber missing", () => {
 		cy.clearRegNumber();
 
@@ -562,10 +561,9 @@ describe("AcceptPayRequest: new", () => {
 		cy.pressSave();
 		cy.sendRequest();
 
-		// ????? assert
-		//cy.contains(sel.error).should("be.visible");
+		cy.contains(sel.error).should("be.visible");
 	});
-	//после доработки добавить асерт
+
 	it("valid request recall, when regNumber missing", () => {
 		cy.clearRegNumber();
 
@@ -607,10 +605,9 @@ describe("AcceptPayRequest: new", () => {
 		cy.pressSave();
 		cy.sendRequest();
 
-		// ????? assert
-		//cy.contains(sel.error).should("be.visible");
+		cy.contains(sel.error).should("be.visible");
 	});
-	//после доработки добавить асерт
+
 	it("valid request clarify, when regNumber missing", () => {
 		cy.clearRegNumber();
 
@@ -652,8 +649,7 @@ describe("AcceptPayRequest: new", () => {
 		cy.pressSave();
 		cy.sendRequest();
 
-		// ????? assert
-		//cy.contains(sel.error).should("be.visible");
+		cy.contains(sel.error).should("be.visible");
 	});
 
 	describe("control of required fields", () => {
